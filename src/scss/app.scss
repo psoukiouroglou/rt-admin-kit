@@ -70,3 +70,24 @@
 @import "5-vendor/flatpickr";
 @import "5-vendor/simplebar";
 
+
+//css code
+.fa-solid,.fas {
+  font-family: Font Awesome, serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+.fa-circle:before {
+  content: "•";
+  padding-right: 8px;
+  box-sizing: border-box;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em ;
+}
+
+.chart-td-info {
+  padding-left: 15%;
+}

@@ -91,3 +91,28 @@
 .chart-td-info {
   padding-left: 15%;
 }
+
+// breadcrumb
+li.breadcrumb-item {
+  //text-align: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+  font-size: medium;
+
+}
+
+.breadcrumb li:after {
+  content: '>';
+  display: inline;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #6c757d;
+  padding: 0 .0725em 0 .15em;
+}
+
+.breadcrumb li:last-child:after
+{
+  content: '';
+}

@@ -36,8 +36,20 @@
     <div class="main">
         <div class="content">
             <div class="container p-0">
-                <h1>Reports</h1>
+                <h1 class="h3 mb-3"><strong>SQLearn</strong> Reporting Tool - Reports</h1>
+
                 <div class="row">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item " aria-current="page"><a href="step-one.html">Completions</a></li>
+                            <li class="breadcrumb-item " aria-current="page"><a href="step-two.html">Bar Chart</a></li>
+                            <li class="breadcrumb-item " aria-current="page"><a href="step-three.html">Filters</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Report</li>
+                        </ol>
+                    </nav>
+                </div>
+                <div class="row" style="margin-top: 10px">
                     <div class="card d-flex">
                         <div class="card-header text-center">
                             <p><strong>Completion Rate - Rank</strong></p>
@@ -226,7 +238,7 @@
                         categoryPercentage: 0.5,
                     },
                     {
-                        label: "Completions 2",
+                        label: "Pending",
                         backgroundColor: window.theme.secondary,
                         borderColor: window.theme.white,
                         hoverBackgroundColor: window.theme.secondary,

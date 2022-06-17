@@ -38,6 +38,18 @@
             <div class="container p-0">
                 <h1 class="h3 mb-3"><strong>SQLearn</strong> Reporting Tool - Step 3</h1>
                 <div class="row">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                            <li class="breadcrumb-item " aria-current="page"><a href="step-one.html">Completions</a></li>
+                            <li class="breadcrumb-item " aria-current="page"><a href="step-two.html">Bar Chart</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Filters</li>
+                        </ol>
+                    </nav>
+                </div>
+
+
+                <div class="row">
                     <div class="card" style="margin-top: 10px">
                         <div class="card-header">
                             <h5 class="card-title mb-0">Step Three</h5>
@@ -72,12 +84,34 @@
                                     Filters
                                 </div>
                                 <div class="card-body">
+                                    <label style="margin-bottom: 10px"><strong>Provider</strong></label>
                                     <select class="form-select form-select-lg mb-3" aria-label="Filters">
                                         <option selected>Select an option</option>
-                                        <option value="1">Filter 1</option>
-                                        <option value="2">Filter 2</option>
-                                        <option value="3">Filter 3</option>
+                                        <option value="1">SQLearn</option>
+                                        <option value="2">Seagull</option>
+                                        <option value="3">HR Trainings</option>
                                     </select>
+
+                                    <div class="form-check" style="text-align: left">
+                                        <input class="form-check-input" type="checkbox" value="" id="active-trainings">
+                                        <label class="form-check-label" for="active-trainings"> Active Trainings</label>
+                                    </div>
+
+                                    <div class="form-check form-switch" style="text-align: left">
+                                        <input class="form-check-input" type="checkbox" value="" id="has-certificate">
+                                        <label class="form-check-label" for="has-certificate">Provide Certificate</label>
+                                    </div>
+
+                                    <label><strong>Rule Type</strong></label>
+                                    <div class="form-check" style="text-align: left">
+                                        <input class="form-check-input" type="radio" name="rulesRadio" value="" id="mandatoryRule">
+                                        <label class="form-check-label" for="mandatoryRule"> Mandatory</label>
+                                    </div>
+
+                                    <div class="form-check" style="text-align: left">
+                                        <input class="form-check-input" type="radio" name="rulesRadio" value="" id="optionalRule">
+                                        <label class="form-check-label" for="optionalRule"> Optional</label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
